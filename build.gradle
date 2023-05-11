@@ -48,10 +48,6 @@ dependencies {
     testCompile('junit:junit:4.12')
 }
 
-bootJar {
-   archiveName = 'sample-api-jar'
-}
-
 task wrapper(type: Wrapper) {
     gradleVersion = '2.13'
 }
